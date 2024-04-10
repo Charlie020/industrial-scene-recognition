@@ -51,7 +51,7 @@ Industrial-Scene-Recognition
             │              last.pt
             │
             └─ utils
-                 │  datasets.py    # 数据集预处理
+                 │  datasets.py    # 数据预处理
                  │  model.py       # 模型
                  └─ tool.py        # 项目中常用的函数
 ```
