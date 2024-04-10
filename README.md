@@ -27,8 +27,8 @@ Industrial scene recognition / 工业场景识别
 
 
 
-其中：`factory` 中的文件源自于百度`places365_standard` 中的文件包含365个分类。
-`test.txt`为测试集，`train.txt`为训练集，用“|”分割了文件路径和标签，0代表是工业场景，1代表不是工业场景。
+其中：`factory` 中的文件源自百度收集；`places365_standard` 中的文件筛自Places365数据集，包含365个分类。
+`train.txt`为训练集，`test.txt`为测试集，用“|”分割了文件路径和标签，0代表是工业场景，1代表不是工业场景。
 
 
 
