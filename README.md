@@ -36,7 +36,7 @@ Industrial scene recognition / 工业场景识别
 
 ## 项目结构
 
-```shell
+```
 Industrial-Scene-Recognition
             │  train.py            # 训练
             │  detect.py           # 检测
@@ -62,6 +62,7 @@ Industrial-Scene-Recognition
             |   │  model.py         # 模型
             |   └─ tool.py          # 项目中常用的函数
             |
-         ......
+            └─ ......
+         
 ```
 
