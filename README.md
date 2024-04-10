@@ -9,7 +9,9 @@ Industrial scene recognition / 工业场景识别
 
 项目中部分代码参考了李沐老师的代码：[动手学深度学习 2.0.0 documentation (d2l.ai)](https://zh.d2l.ai/chapter_convolutional-modern/resnet.html)
 
-项目中已搭建了 `Resnet18` 网络，并在数据集上完成了为期300个epoch的训练，结果保存在了 `runs/ResNet18_300` 中。默认情况下，第`X`次训练结果保存在`runs/expX`中。
+默认情况下，第`X`次训练结果保存在`runs/expX`中。
+
+项目中已搭建了 `Resnet18` 网络，并在数据集上完成了为期300个epoch的训练，结果保存在 `runs/ResNet18_300` 中，test acc为74.8%，FPS为283。
 
 
 
