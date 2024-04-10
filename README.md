@@ -41,18 +41,27 @@ Industrial-Scene-Recognition
             │  train.py            # 训练
             │  detect.py           # 检测
             │
+            ├─ Data
+            │   │  test.txt
+            │   │  train.txt
+            │   │
+            │   ├─ factory
+            │   └─ places365_standard
+            |
             ├─ runs
-            │   └─expX             # 第X次训练结果
-            │       │  log.txt
-            │       │  result.png
-            │       │
-            │       └─weights
-            │              best.pt
-            │              last.pt
+            │   └─ expX             # 第X次训练结果
+            │        │  log.txt
+            │        │  result.png
+            │        │
+            │        └─ weights
+            │                best.pt
+            │                last.pt
             │
-            └─ utils
-                 │  datasets.py    # 数据预处理
-                 │  model.py       # 模型
-                 └─ tool.py        # 项目中常用的函数
+            ├─ utils
+            |   │  datasets.py      # 数据预处理
+            |   │  model.py         # 模型
+            |   └─ tool.py          # 项目中常用的函数
+            |
+         ......
 ```
 
