@@ -5,9 +5,9 @@ from utils.model import ResNet18
 from utils.tool import net_info, load_paramsToNet, get_dataloader_workers, train_ch6, evaluate_accuracy
 
 # 路径
-dataset_path = r"E:\PythonCode\Industrial-Scene-Recognition\Data"
-trainset_path = r"E:\PythonCode\Industrial-Scene-Recognition\Data\train.txt"
-testset_path = r"E:\PythonCode\Industrial-Scene-Recognition\Data\test.txt"
+dataset_path = r"Data"
+trainset_path = r"Data/train.txt"
+testset_path = r"Data/test.txt"
 
 # 超参
 batch_size = 16

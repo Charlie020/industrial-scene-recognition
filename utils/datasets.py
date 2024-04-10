@@ -49,5 +49,7 @@ class MyDataset(Dataset):
     def read_image_label(self):
         with open(self.txt_path, 'r') as file:
             data = [line.strip().split('|') for line in file.readlines()]
-        data = [[self.dataset_path + item[0]] + item[1:] for item in data]
+
+        # 下面的代码得到的data中的每一项是一个list，其中list[0]是图片的绝对路径，list[1]是0/1
+        data = [[self.dataset_path + '/' + item[0]] + item[1:] for item in data]
         return data

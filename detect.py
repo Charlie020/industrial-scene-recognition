@@ -52,10 +52,10 @@ if __name__ == '__main__':
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     # 读取模型参数
-    load_paramsToNet(net, f'runs/ResNet18_300/weights/best.pt')
+    load_paramsToNet(net, r'runs/ResNet18_300/weights/best.pt')
 
     # 检测
     img_path = ''
-    folder_path = r'E:\PythonCode\Industrial-Scene-Recognition\Data\places365_standard\train\basement'
+    folder_path = r'Data/places365_standard/train/basement'
     detect(net, img_path, folder_path, 224, device)
 
